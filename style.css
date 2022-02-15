@@ -1,0 +1,31 @@
+.btt{
+    background-color: green;
+    border: 3px solid green;
+}
+.btt2{
+    background-color: red;
+    border: 3px solid red;
+}
+body{
+    background-color: #ff149125;
+}
+#in{
+    background-color: #fa289809;
+    border: 1px solid #fa289809;
+}
+#bt{
+    background-color: rgba(255, 20, 145, 0.308);
+    border: 1px solid #ff14910e;
+}
+#trr{
+    background-color: rgba(255, 20, 145, 0.308); 
+}
+.tdd{
+    background-color: #ff149125;
+}
+.ti{
+   color: rgba(241, 24, 140, 0.658);
+}
+.til{
+    background-color:  rgba(241, 24, 140, 0.658);
+}

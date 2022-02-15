@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Items</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="fw-bold text-center ti mt-3">Add your items</h1>
+    </header>
+    <main>
+        <section class="container mt-5">
+
+            <div class="input-group mb-3 w-25 mx-auto">
+                <input type="text" class="form-control" placeholder="Add your items here..."
+                    aria-label="Recipient's username" aria-describedby="button-addon2" id="in">
+                <button class="btn btn-outline-secondary rounded-circle text-center fw-bold text-black" type="button"
+                    id="bt"><i class="fal fa-plus"></i></button>
+            </div>
+            <table class="table table-borderless shadow-lg p-3 mb-5 bg-body rounded w-50 mx-auto mt-5 text-center">
+                <thead>
+                    <tr id="trr">
+
+                        <th scope="col">Items</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tb">
+
+            </table>
+            <div class="text-center">
+                <button type="button" class="btn til" id="cl">Clear all items</button>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
